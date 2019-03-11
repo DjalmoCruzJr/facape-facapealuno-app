@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FACAPEAluno</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_notas">Menu</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_horario">Horario</string>
+    <string name="title_activity_boleto">Boleto</string>
+    <string name="title_activity_progresso">Progresso</string>
+    <string name="title_activity_notas2">Notas</string>
+
+    <string-array name="titles">
+        <item>Notas</item>
+        <item>Meu Horário</item>
+        <item>Boleto</item>
+        <item>Progresso</item>
+        <item>Sair</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/iconhome</item>
+        <item>@drawable/iconhorario</item>
+        <item>@drawable/iconboleto</item>
+        <item>@drawable/iconprogresso</item>
+    </array>
+
+    <string name="title_activity_contato">Contato</string>
+    <string name="title_activity_boleto_list">BoletoList</string>
+    <string name="title_activity_horario_group">HorarioGroup</string>
+    <string name="title_activity_horario_item">HorarioItem</string>
+    <string name="title_activity_row_horario">RowHorario</string>
+    <string name="title_activity_sobre">Sobre</string>
+
+</resources>

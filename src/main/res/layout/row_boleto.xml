@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:src="@drawable/bgazul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bgazul"
+        android:background="@drawable/bgazul"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SETEMBRO/2014"
+        android:id="@+id/boletoMes"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"/>
+
+    <ImageView
+        android:src="@drawable/bgcinza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bgcinza"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bgazul" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vencimento"
+        android:id="@+id/boletoVencimento"
+        android:layout_alignTop="@+id/bgcinza"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0050b2"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="30/9/2014"
+        android:id="@+id/boletoVencimentoData"
+        android:layout_below="@+id/boletoVencimento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0050b2"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Total"
+        android:id="@+id/boletoTotal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#0050b2"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@+id/bgazul" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="189,20"
+        android:id="@+id/boletoValor"
+        android:layout_alignTop="@+id/boletoVencimentoData"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#0050b2"
+        android:textStyle="bold"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Código de Barras"
+        android:id="@+id/boletoCodigoBarra"
+        android:layout_below="@+id/bgcinza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="8450010001-0 3728001450-5 4538912309-9 7 5600018920"
+        android:id="@+id/boletoCodigo"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/boletoCodigoBarra"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0050b2"
+        android:textIsSelectable="true"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="50dp"
+        />
+
+
+</RelativeLayout>

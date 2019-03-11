@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0050b2"
+    tools:context="facape.br.facapealuno.Login">
+
+   <ImageView
+        android:id="@+id/imageLogoWhite"
+        android:src="@drawable/logo_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/loginMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:width="240dp"
+        android:background="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Matricula"
+        android:textColorHint="#dedede"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/loginSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:width="240dp"
+        android:background="#ffffff"
+        android:hint="Senha"
+        android:textColorHint="#dedede"
+        android:padding="5dp"
+        android:layout_below="@+id/loginMatricula"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/loginMatricula"
+        android:layout_alignStart="@+id/loginMatricula" />
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:background="@drawable/button_login"
+        android:layout_width="139.33dp"
+        android:layout_height="36.33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageLogoWhite"
+        android:layout_alignEnd="@+id/imageLogoWhite"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickNotas"/>
+
+</RelativeLayout>
