@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.facape.facapealuno.RowHorario">
+
+    <TextView
+        android:id="@+id/diaSemana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="SEGUNDA-FEIRA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0262d9"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diaSemana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/horaAula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="18:50"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000"
+            android:textSize="60dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nomeDisciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materia 1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0050b2"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomeProfessor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. Fulano da Silva"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#717070"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/horarioSala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#717070"
+                android:textSize="16dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

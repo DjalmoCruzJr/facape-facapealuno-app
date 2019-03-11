@@ -7,9 +7,10 @@ bin/
 /.idea/libraries
 .DS_Store
 **.class
+**.iml
 **.gradle
 **.pro
-.gradle
+**.gradle
 
 =======
 # Built application files

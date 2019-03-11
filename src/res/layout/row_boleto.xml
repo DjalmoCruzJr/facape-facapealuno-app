@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bgazul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgazul"
+        android:src="@drawable/bgazul" />
+
+    <TextView
+        android:id="@+id/boletoMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="SETEMBRO/2014"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bgcinza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bgazul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/bgcinza" />
+
+    <TextView
+        android:id="@+id/boletoVencimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bgcinza"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:text="Vencimento"
+        android:textColor="#0050b2" />
+
+    <TextView
+        android:id="@+id/boletoVencimentoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boletoVencimento"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-5dp"
+        android:text="30/9/2014"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0050b2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/boletoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bgazul"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="70dp"
+        android:text="Total"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#0050b2" />
+
+    <TextView
+        android:id="@+id/boletoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/boletoVencimentoData"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="32dp"
+        android:text="189,20"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0050b2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/boletoCodigoBarra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bgcinza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Código de Barras"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/boletoCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boletoCodigoBarra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="8450010001-0 3728001450-5 4538912309-9 7 5600018920"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0050b2"
+        android:textIsSelectable="true"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
