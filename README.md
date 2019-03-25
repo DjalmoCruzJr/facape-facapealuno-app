@@ -48,7 +48,7 @@
 
 <br/>
 <h2>Screenchots:</h2>
-<img style="width: 48%;" src="https://raw.githubusercontent.com/DjalmoCruzJr/sistema-facape-facapealuno-app/master/_prototype/0a-inicial.png">
+<img style="max-width: 48%;" src="https://raw.githubusercontent.com/DjalmoCruzJr/sistema-facape-facapealuno-app/master/_prototype/0a-inicial.png">
 <img style="width: 48%;" src="https://raw.githubusercontent.com/DjalmoCruzJr/sistema-facape-facapealuno-app/master/_prototype/1a-inicial-clicked.png">
 <img style="width: 48%;" src="https://raw.githubusercontent.com/DjalmoCruzJr/sistema-facape-facapealuno-app/master/_prototype/2a-login.png">
 <img style="width: 48%;" src="https://raw.githubusercontent.com/DjalmoCruzJr/sistema-facape-facapealuno-app/master/_prototype/3a-notas.png">
