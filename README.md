@@ -1,6 +1,6 @@
 <h1>Sistema - Facape Aluno App</h1>
 
-<p>Aplicativo de consulta de notas, cronograma de aulas, mensalidades em aberto/pagas, entre outras funcionalidades, voltado para o alunos da Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACPE.</p>
+<p>Aplicativo de consulta de notas, cronograma de aulas, mensalidades em aberto/pagas, entre outras funcionalidades, voltado para o alunos da Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE.</p>
 
 <br/>
 <h2>Funcionalidades Disponíveis:</h2>
